@@ -5,12 +5,12 @@ class Main {
   Scanner input = new Scanner(System.in);
   System.out.println("Enter your first name");
   String  userFirst = input.nextLine();
-  System.out.println("Enteryour last name");
+  System.out.println("Enter your last name");
   String  userLast  = input.nextLine();
   String ansOne = "";
   System.out.print("1.");
   System.out.println("A keyboard is an exapmle of which of these. (Keep in mind it's case sensitive for all questions");
-  System.out.println("A. Softwear\n B. Hard drive \n C. Acessory \n D. Hardwear");
+  System.out.println(" A. Softwear\n B. Hard drive \n C. Acessory \n D. Hardwear");
   char  choice1  = input.next().charAt(0);
 
   if (choice1=='D') { 
