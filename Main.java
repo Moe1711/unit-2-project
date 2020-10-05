@@ -14,6 +14,7 @@ class Main {
   char  choice1  = input.next().charAt(0);
 
   if (choice1=='D') { 
+      System.out.println("Correct");
       ansOne = "Correct";
     }
 
@@ -32,6 +33,7 @@ class Main {
     char  choice2  = input.next().charAt(0);
 
     if  (choice2=='A') { 
+      System.out.println("Correct");
       ansTwo = "Correct";
     }
 
@@ -48,10 +50,12 @@ class Main {
     char  choice3  = input.next().charAt(0);
 
     if (choice3=='B') { 
+      System.out.println("Correct");
       ansThree = "Correct";
     }
 
     else if (choice3=='C') { 
+      System.out.println("Correct");
       ansThree = "Correct";
     }
 
@@ -68,6 +72,7 @@ class Main {
     char  choice4  = input.next().charAt(0);
 
     if (choice4=='C') { 
+      System.out.println("Correct");
       ansFour = "Correct";
     }
 
@@ -84,6 +89,7 @@ class Main {
     char  choice5  = input.next().charAt(0);
 
     if (choice5=='A') { 
+      System.out.println("Correct");
       ansFive = "Correct";
     }
 
@@ -100,6 +106,7 @@ class Main {
     char  choice6  = input.next().charAt(0);
 
     if (choice6=='A') { 
+      System.out.println("Correct");
       ansSix = "Correct";
     }
 
@@ -116,6 +123,7 @@ class Main {
     char  choice7  = input.next().charAt(0);
 
     if (choice7=='C') { 
+      System.out.println("Correct");
       ansSeven = "Correct";
     }
 
@@ -132,6 +140,7 @@ class Main {
     char  choice8  = input.next().charAt(0);
 
     if (choice8=='A') { 
+      System.out.println("Correct");
       ansEight = "Correct";
     }
 
