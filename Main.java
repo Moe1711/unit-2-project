@@ -43,7 +43,7 @@ class Main {
    System.out.print("3.");
 
     String numThree = "";
-    System.out.println("Why is SSD superiour than Hard Drive.");
+    System.out.println("Why is an SSD superiour than aHard Drive.");
     System.out.println("A. It's Stronger \n B. It's Faster \n C. It's Smaller \n D. It runs colder");
     char  choice3  = input.next().charAt(0);
 
@@ -51,7 +51,7 @@ class Main {
       ansThree = "Correct";
     }
 
-    else if (choice2=='C') { 
+    else if (choice3=='C') { 
       ansThree = "Correct";
     }
 
@@ -80,16 +80,32 @@ class Main {
 
     String numFive = "";
     System.out.println("_____ reduces your carbon footprint.");
-    System.out.println("A.char \n B.int \n C. float \n D. String");
+    System.out.println("A.Recycling \n B.Driving \n C. Throwing out \n D. Hoarding");
     char  choice5  = input.next().charAt(0);
 
-    if (choice5=='C') { 
+    if (choice5=='A') { 
       ansFive = "Correct";
     }
 
     else{
       System.out.println("Incorrect");
       ansFive="invalid selection";
+    }
+
+    System.out.print("6.");
+
+    String numSix = "";
+    System.out.println("_____ reduces your carbon footprint.");
+    System.out.println("A.Recycling \n B.Driving \n C. Throwing out \n D. Hoarding");
+    char  choice6  = input.next().charAt(0);
+
+    if (choice6=='A') { 
+      ansSix = "Correct";
+    }
+
+    else{
+      System.out.println("Incorrect");
+      ansSix="invalid selection";
     }
 
 
