@@ -28,7 +28,7 @@ class Main {
 
     String ansTwo = "";
     System.out.println("What does SSD stand for.");
-    System.out.println("A. Solid State Drive \n B. Solid State Device \n C. Smart Soft Drive \n D. Sovit Superior Device");
+    System.out.println(" A. Solid State Drive \n B. Solid State Device \n C. Smart Soft Drive \n D. Sovit Superior Device");
     char  choice2  = input.next().charAt(0);
 
     if  (choice2=='A') { 
@@ -44,7 +44,7 @@ class Main {
 
     String ansThree = "";
     System.out.println("Why is an SSD superiour than aHard Drive.");
-    System.out.println("A. It's Stronger \n B. It's Faster \n C. It's Smaller \n D. It runs colder");
+    System.out.println(" A. It's Stronger \n B. It's Faster \n C. It's Smaller \n D. It runs colder");
     char  choice3  = input.next().charAt(0);
 
     if (choice3=='B') { 
@@ -64,7 +64,7 @@ class Main {
 
     String ansFour = "";
     System.out.println("How do you input a decimal into your code.");
-    System.out.println("A.char \n B.int \n C. float \n D. String");
+    System.out.println(" A.char \n B.int \n C. float \n D. String");
     char  choice4  = input.next().charAt(0);
 
     if (choice4=='C') { 
@@ -80,7 +80,7 @@ class Main {
 
     String ansFive = "";
     System.out.println("_____ reduces your carbon footprint.");
-    System.out.println("A.Recycling \n B.Driving \n C. Throwing out \n D. Hoarding");
+    System.out.println(" A.Recycling \n B.Driving \n C. Throwing out \n D. Hoarding");
     char  choice5  = input.next().charAt(0);
 
     if (choice5=='A') { 
@@ -95,8 +95,8 @@ class Main {
     System.out.print("6.");
 
     String ansSix = "";
-    System.out.println("_____ reduces your carbon footprint.");
-    System.out.println("A.Recycling \n B.Driving \n C. Throwing out \n D. Hoarding");
+    System.out.println("_____ is gloabal warming.");
+    System.out.println(" A. A rise in the planets average tempature \n B. Bad weather \n C. Snow \n D. Heatwaves");
     char  choice6  = input.next().charAt(0);
 
     if (choice6=='A') { 
