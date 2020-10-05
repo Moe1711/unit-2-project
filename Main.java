@@ -7,7 +7,7 @@ class Main {
   String  userFirst = input.nextLine();
   System.out.println("Enteryour last name");
   String  userLast  = input.nextLine();
-  String numOne = "";
+  String ansOne = "";
   System.out.print("1.");
   System.out.println("A keyboard is an exapmle of which of these. (Keep in mind it's case sensitive for all questions");
   System.out.println("A. Softwear\n B. Hard drive \n C. Acessory \n D. Hardwear");
@@ -26,13 +26,13 @@ class Main {
 
   System.out.print("2.");
 
-    String numTwo = "";
+    String ansTwo = "";
     System.out.println("What does SSD stand for.");
     System.out.println("A. Solid State Drive \n B. Solid State Device \n C. Smart Soft Drive \n D. Sovit Superior Device");
     char  choice2  = input.next().charAt(0);
 
     if  (choice2=='A') { 
-      ansThree = "Correct";
+      ansTwo = "Correct";
     }
 
     else{
@@ -42,7 +42,7 @@ class Main {
    
    System.out.print("3.");
 
-    String numThree = "";
+    String ansThree = "";
     System.out.println("Why is an SSD superiour than aHard Drive.");
     System.out.println("A. It's Stronger \n B. It's Faster \n C. It's Smaller \n D. It runs colder");
     char  choice3  = input.next().charAt(0);
@@ -62,7 +62,7 @@ class Main {
 
     System.out.print("4.");
 
-    String numFour = "";
+    String ansFour = "";
     System.out.println("How do you input a decimal into your code.");
     System.out.println("A.char \n B.int \n C. float \n D. String");
     char  choice4  = input.next().charAt(0);
@@ -78,7 +78,7 @@ class Main {
 
     System.out.print("5.");
 
-    String numFive = "";
+    String ansFive = "";
     System.out.println("_____ reduces your carbon footprint.");
     System.out.println("A.Recycling \n B.Driving \n C. Throwing out \n D. Hoarding");
     char  choice5  = input.next().charAt(0);
@@ -94,7 +94,7 @@ class Main {
 
     System.out.print("6.");
 
-    String numSix = "";
+    String ansSix = "";
     System.out.println("_____ reduces your carbon footprint.");
     System.out.println("A.Recycling \n B.Driving \n C. Throwing out \n D. Hoarding");
     char  choice6  = input.next().charAt(0);
@@ -107,6 +107,45 @@ class Main {
       System.out.println("Incorrect");
       ansSix="invalid selection";
     }
+
+    System.out.print("7.");
+
+    String ansSeven = "";
+    System.out.println("What will this line of code output: System.out.print(\"Hi\");");
+    System.out.println("A. Hello \n B. Bye \n C. Hi \n D. Bonjour");
+    char  choice7  = input.next().charAt(0);
+
+    if (choice7=='C') { 
+      ansSeven = "Correct";
+    }
+
+    else{
+      System.out.println("Incorrect");
+      ansSeven="invalid selection";
+    }
+
+    System.out.print("8.");
+
+    String ansEight = "";
+    System.out.println("What does this operator mean: \"==\".");
+    System.out.println("A. Equal to \n B. More than \n C. Less than \n D. Divided by");
+    char  choice8  = input.next().charAt(0);
+
+    if (choice8=='A') { 
+      ansEight = "Correct";
+    }
+
+    else{
+      System.out.println("Incorrect");
+      ansEight="invalid selection";
+    }
+
+
+
+
+    
+    
+
 
 
 
