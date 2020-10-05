@@ -68,7 +68,7 @@ class Main {
 
     String ansFour = "";
     System.out.println("How do you input a decimal into your code.");
-    System.out.println(" A.char \n B.int \n C. float \n D. String");
+    System.out.println(" A. char \n B. int \n C. float \n D. String");
     char  choice4  = input.next().charAt(0);
 
     if (choice4=='C') { 
@@ -85,7 +85,7 @@ class Main {
 
     String ansFive = "";
     System.out.println("_____ reduces your carbon footprint.");
-    System.out.println(" A.Recycling \n B.Driving \n C. Throwing out \n D. Hoarding");
+    System.out.println(" A. Recycling \n B. Driving \n C. Throwing out \n D. Hoarding");
     char  choice5  = input.next().charAt(0);
 
     if (choice5=='A') { 
@@ -148,6 +148,48 @@ class Main {
       System.out.println("Incorrect");
       ansEight="invalid selection";
     }
+
+    System.out.print("9.");
+
+    String ansNine = "";
+    System.out.println("What is the operator : \"char\" used for");
+    System.out.println("A. A number \n B. A decimal \n C. A Character \n D. A Sentance");
+    char  choice9  = input.next().charAt(0);
+
+    if (choice9=='C') { 
+      System.out.println("Correct");
+      ansNine = "Correct";
+    }
+
+    else{
+      System.out.println("Incorrect");
+      ansNine="invalid selection";
+    }
+
+    System.out.print("10.");
+
+    String ansTen = "";
+    System.out.println("How many gigabytes are in a terabyte");
+    System.out.println("A. 1000 \n B. 1500 \n C. 850 \n D. 1024");
+    char  choice10  = input.next().charAt(0);
+
+    if (choice10=='A') { 
+      System.out.println("Correct");
+      ansTen = "Correct";
+    }
+
+    else if (choice10=='D') { 
+      System.out.println("Correct");
+      ansTen = "Correct";
+    }
+
+    else{
+      System.out.println("Incorrect");
+      ansTen="invalid selection";
+    }
+
+    
+
 
 
 
