@@ -209,7 +209,54 @@ class Main {
       ansTen="invalid selection";
     }
 
+    System.out.println("You got " + correct + " questions right.");
 
+    float userAvg = (correct/10)*100;
+    String grade = "";
+
+
+     if (userAvg>=90&&userAvg<=100){
+      grade = "A+";
+     }
+     else if (userAvg>=85&&userAvg<90){
+      grade = "A";
+     }
+     else if (userAvg>=80&&userAvg<85) {
+      grade = "A-";
+     }
+     else if (userAvg>=77&&userAvg<80) {
+      grade = "B+";
+     }
+     else if (userAvg>=73&&userAvg<77) {
+      grade = "B";
+     }
+     else if (userAvg>=70&&userAvg<73) {
+      grade = "B-";
+     } 
+     else if (userAvg>=67&&userAvg<70) {
+      grade = "C+";
+     }
+     else if (userAvg>=63&&userAvg<68) {
+      grade = "C";
+     }
+     else if (userAvg>=60&&userAvg<63) {
+      grade = "C-";
+     }
+     else if (userAvg>=57&&userAvg<61) {
+      grade = "D+";
+     }
+     else if (userAvg>=53&&userAvg<57) {
+      grade = "D";
+     }
+     else if (userAvg>=50&&userAvg<53) {
+      grade = "D-";
+     }
+     else {
+      grade = "F";
+     }
+    System.out.println("You mark is " + grade);
+  
+  
 
     
 
