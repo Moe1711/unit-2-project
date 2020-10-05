@@ -10,7 +10,7 @@ class Main {
     String ansOne = "";
     System.out.print("1."); // question 1
     System.out
-        .println("A keyboard is an exapmle of which of these. (Keep in mind it's case sensitive for all questions");
+        .println("A keyboard is an exapmle of which of these. (Keep in mind it's case sensitive for all questions)");
     System.out.println(" A. Softwear\n B. Hard drive \n C. Acessory \n D. Hardwear");
     char choice1 = input.next().charAt(0);
     int correct = 0;
