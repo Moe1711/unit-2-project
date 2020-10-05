@@ -127,7 +127,7 @@ class Main {
 
     String ansSeven = "";
     System.out.println("What will this line of code output: System.out.print(\"Hi\");");
-    System.out.println("A. Hello \n B. Bye \n C. Hi \n D. Bonjour");
+    System.out.println(" A. Hello \n B. Bye \n C. Hi \n D. Bonjour");
     char choice7 = input.next().charAt(0);
 
     if (choice7 == 'C') {
@@ -145,7 +145,7 @@ class Main {
 
     String ansEight = "";
     System.out.println("What does this operator mean: \"==\".");
-    System.out.println("A. Equal to \n B. More than \n C. Less than \n D. Divided by");
+    System.out.println(" A. Equal to \n B. More than \n C. Less than \n D. Divided by");
     char choice8 = input.next().charAt(0);
 
     if (choice8 == 'A') {
@@ -163,7 +163,7 @@ class Main {
 
     String ansNine = "";
     System.out.println("What is the operator : \"char\" used for");
-    System.out.println("A. A number \n B. A decimal \n C. A Character \n D. A Sentance");
+    System.out.println(" A. A number \n B. A decimal \n C. A Character \n D. A Sentance");
     char choice9 = input.next().charAt(0);
 
     if (choice9 == 'C') {
@@ -181,7 +181,7 @@ class Main {
 
     String ansTen = "";
     System.out.println("How many gigabytes are in a terabyte(there are 2 right answers)");
-    System.out.println("A. 1000 \n B. 1500 \n C. 850 \n D. 1024");
+    System.out.println(" A. 1000 \n B. 1500 \n C. 850 \n D. 1024");
     char choice10 = input.next().charAt(0);
 
     if (choice10 == 'A') {
