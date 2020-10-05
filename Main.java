@@ -2,282 +2,238 @@ import java.util.Scanner;
 
 class Main {
   public static void main(String[] args) {
-  Scanner input = new Scanner(System.in);
-  System.out.println("Enter your first name");
-  String  userFirst = input.nextLine();
-  System.out.println("Enter your last name");
-  String  userLast  = input.nextLine();
-  String ansOne = "";
-  System.out.print("1.");
-  System.out.println("A keyboard is an exapmle of which of these. (Keep in mind it's case sensitive for all questions");
-  System.out.println(" A. Softwear\n B. Hard drive \n C. Acessory \n D. Hardwear");
-  char  choice1  = input.next().charAt(0);
-  int correct = 0;
+    Scanner input = new Scanner(System.in);
+    System.out.println("Enter your first name");
+    String userFirst = input.nextLine();
+    System.out.println("Enter your last name");
+    String userLast = input.nextLine();
+    String ansOne = "";
+    System.out.print("1."); // question 1
+    System.out
+        .println("A keyboard is an exapmle of which of these. (Keep in mind it's case sensitive for all questions");
+    System.out.println(" A. Softwear\n B. Hard drive \n C. Acessory \n D. Hardwear");
+    char choice1 = input.next().charAt(0);
+    int correct = 0;
 
-  if (choice1=='D') { 
+    if (choice1 == 'D') {
       System.out.println("Correct");
       ansOne = "Correct";
-      correct = correct+1;
+      correct = correct + 1;
     }
 
-  else{
+    else {
       System.out.println("Incorrect");
-      ansOne="invalid selection";
+      ansOne = "invalid selection";
     }
 
-
-
-  System.out.print("2.");
+    System.out.print("2."); // question 2
 
     String ansTwo = "";
     System.out.println("What does SSD stand for.");
-    System.out.println(" A. Solid State Drive \n B. Solid State Device \n C. Smart Soft Drive \n D. Sovit Superior Device");
-    char  choice2  = input.next().charAt(0);
+    System.out
+        .println(" A. Solid State Drive \n B. Solid State Device \n C. Smart Soft Drive \n D. Sovit Superior Device");
+    char choice2 = input.next().charAt(0);
 
-    if  (choice2=='A') { 
+    if (choice2 == 'A') {
       System.out.println("Correct");
       ansTwo = "Correct";
-      correct = correct+1;
+      correct = correct + 1;
     }
 
-    else{
+    else {
       System.out.println("Incorrect");
-      ansTwo="invalid selection";
-    } 
-   
-   System.out.print("3.");
+      ansTwo = "invalid selection";
+    }
+
+    System.out.print("3."); // question 3
 
     String ansThree = "";
-    System.out.println("Why is an SSD superiour than aHard Drive.");
+    System.out.println("Why is an SSD superiour than aHard Drive.(there are 2 right answers)");
     System.out.println(" A. It's Stronger \n B. It's Faster \n C. It's Smaller \n D. It runs colder");
-    char  choice3  = input.next().charAt(0);
-  
+    char choice3 = input.next().charAt(0);
 
-    if (choice3=='B') { 
+    if (choice3 == 'B') {
       System.out.println("Correct");
       ansThree = "Correct";
-      correct = correct+1;
+      correct = correct + 1;
     }
 
-    else if (choice3=='C') { 
+    else if (choice3 == 'C') {
       System.out.println("Correct");
       ansThree = "Correct";
-      correct = correct+1;
+      correct = correct + 1;
     }
 
-    else{
+    else {
       System.out.println("Incorrect");
-      ansThree="invalid selection";
+      ansThree = "invalid selection";
     }
 
-    System.out.print("4.");
+    System.out.print("4."); // question 4
 
     String ansFour = "";
     System.out.println("How do you input a decimal into your code.");
     System.out.println(" A. char \n B. int \n C. float \n D. String");
-    char  choice4  = input.next().charAt(0);
-   
+    char choice4 = input.next().charAt(0);
 
-    if (choice4=='C') { 
+    if (choice4 == 'C') {
       System.out.println("Correct");
       ansFour = "Correct";
-      correct = correct+1;
+      correct = correct + 1;
     }
 
-    else{
+    else {
       System.out.println("Incorrect");
-      ansFour="invalid selection";
+      ansFour = "invalid selection";
     }
 
-    System.out.print("5.");
+    System.out.print("5."); // question 5
 
     String ansFive = "";
     System.out.println("_____ reduces your carbon footprint.");
     System.out.println(" A. Recycling \n B. Driving \n C. Throwing out \n D. Hoarding");
-    char  choice5  = input.next().charAt(0);
-    
+    char choice5 = input.next().charAt(0);
 
-    if (choice5=='A') { 
+    if (choice5 == 'A') {
       System.out.println("Correct");
       ansFive = "Correct";
-      correct = correct+1;
+      correct = correct + 1;
     }
 
-    else{
+    else {
       System.out.println("Incorrect");
-      ansFive="invalid selection";
+      ansFive = "invalid selection";
     }
 
-    System.out.print("6.");
+    System.out.print("6."); // question 6
 
     String ansSix = "";
     System.out.println("_____ is gloabal warming.");
     System.out.println(" A. A rise in the planets average tempature \n B. Bad weather \n C. Snow \n D. Heatwaves");
-    char  choice6  = input.next().charAt(0);
-  
-    
-    if (choice6=='A') { 
+    char choice6 = input.next().charAt(0);
+
+    if (choice6 == 'A') {
       System.out.println("Correct");
       ansSix = "Correct";
-      correct =correct+1;
+      correct = correct + 1;
     }
 
-    else{
+    else {
       System.out.println("Incorrect");
-      ansSix="invalid selection";
+      ansSix = "invalid selection";
     }
 
-    System.out.print("7.");
+    System.out.print("7."); // question 7
 
     String ansSeven = "";
     System.out.println("What will this line of code output: System.out.print(\"Hi\");");
     System.out.println("A. Hello \n B. Bye \n C. Hi \n D. Bonjour");
-    char  choice7  = input.next().charAt(0);
-    
+    char choice7 = input.next().charAt(0);
 
-    if (choice7=='C') { 
+    if (choice7 == 'C') {
       System.out.println("Correct");
       ansSeven = "Correct";
-      correct = correct+1;
+      correct = correct + 1;
     }
 
-    else{
+    else {
       System.out.println("Incorrect");
-      ansSeven="invalid selection";
+      ansSeven = "invalid selection";
     }
 
-    System.out.print("8.");
+    System.out.print("8."); // question 8
 
     String ansEight = "";
     System.out.println("What does this operator mean: \"==\".");
     System.out.println("A. Equal to \n B. More than \n C. Less than \n D. Divided by");
-    char  choice8  = input.next().charAt(0);
-    
+    char choice8 = input.next().charAt(0);
 
-    if (choice8=='A') { 
+    if (choice8 == 'A') {
       System.out.println("Correct");
       ansEight = "Correct";
-      correct = correct+1;
+      correct = correct + 1;
     }
 
-    else{
+    else {
       System.out.println("Incorrect");
-      ansEight="invalid selection";
+      ansEight = "invalid selection";
     }
 
-    System.out.print("9.");
+    System.out.print("9."); // question 9
 
     String ansNine = "";
     System.out.println("What is the operator : \"char\" used for");
     System.out.println("A. A number \n B. A decimal \n C. A Character \n D. A Sentance");
-    char  choice9  = input.next().charAt(0);
-    
+    char choice9 = input.next().charAt(0);
 
-    if (choice9=='C') { 
+    if (choice9 == 'C') {
       System.out.println("Correct");
       ansNine = "Correct";
-      correct = correct+1;
+      correct = correct + 1;
     }
 
-    else{
+    else {
       System.out.println("Incorrect");
-      ansNine="invalid selection";
+      ansNine = "invalid selection";
     }
 
-    System.out.print("10.");
+    System.out.print("10."); // question 10
 
     String ansTen = "";
-    System.out.println("How many gigabytes are in a terabyte");
+    System.out.println("How many gigabytes are in a terabyte(there are 2 right answers)");
     System.out.println("A. 1000 \n B. 1500 \n C. 850 \n D. 1024");
-    char  choice10  = input.next().charAt(0);
-     
+    char choice10 = input.next().charAt(0);
 
-    if (choice10=='A') { 
+    if (choice10 == 'A') {
       System.out.println("Correct");
       ansTen = "Correct";
-      correct = correct+1;
+      correct = correct + 1;
     }
 
-    else if (choice10=='D') { 
+    else if (choice10 == 'D') {
       System.out.println("Correct");
       ansTen = "Correct";
-      correct = correct+1;
+      correct = correct + 1;
     }
 
-    else{
+    else {
       System.out.println("Incorrect");
-      ansTen="invalid selection";
+      ansTen = "invalid selection";
     }
 
-    System.out.println("You got " + correct + " questions right.");
+    System.out.println("You got " + correct + " questions right."); // how many questions correct
 
-    float userAvg = (correct/10)*100;
-    String grade = "";
-
-
-     if (userAvg>=90&&userAvg<=100){
+    float userAvg = (correct / 10) * 100;
+    String grade = ""; // equation to find the average
+    // esle if statements to give grade
+    if (userAvg >= 90 && userAvg <= 100) {
       grade = "A+";
-     }
-     else if (userAvg>=85&&userAvg<90){
+    } else if (userAvg >= 85 && userAvg < 90) {
       grade = "A";
-     }
-     else if (userAvg>=80&&userAvg<85) {
+    } else if (userAvg >= 80 && userAvg < 85) {
       grade = "A-";
-     }
-     else if (userAvg>=77&&userAvg<80) {
+    } else if (userAvg >= 77 && userAvg < 80) {
       grade = "B+";
-     }
-     else if (userAvg>=73&&userAvg<77) {
+    } else if (userAvg >= 73 && userAvg < 77) {
       grade = "B";
-     }
-     else if (userAvg>=70&&userAvg<73) {
+    } else if (userAvg >= 70 && userAvg < 73) {
       grade = "B-";
-     } 
-     else if (userAvg>=67&&userAvg<70) {
+    } else if (userAvg >= 67 && userAvg < 70) {
       grade = "C+";
-     }
-     else if (userAvg>=63&&userAvg<68) {
+    } else if (userAvg >= 63 && userAvg < 68) {
       grade = "C";
-     }
-     else if (userAvg>=60&&userAvg<63) {
+    } else if (userAvg >= 60 && userAvg < 63) {
       grade = "C-";
-     }
-     else if (userAvg>=57&&userAvg<61) {
+    } else if (userAvg >= 57 && userAvg < 61) {
       grade = "D+";
-     }
-     else if (userAvg>=53&&userAvg<57) {
+    } else if (userAvg >= 53 && userAvg < 57) {
       grade = "D";
-     }
-     else if (userAvg>=50&&userAvg<53) {
+    } else if (userAvg >= 50 && userAvg < 53) {
       grade = "D-";
-     }
-     else {
+    } else {
       grade = "F";
-     }
+    }
     System.out.println("You mark is " + grade);
-  
-  
-
-    
-
-
-
-
-
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
 
   }
 }
