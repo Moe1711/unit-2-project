@@ -48,7 +48,7 @@ class Main {
     System.out.print("3."); // question 3
 
     String ansThree = "";
-    System.out.println("Why is an SSD superiour than aHard Drive.(there are 2 right answers)");
+    System.out.println("Why is an SSD superiour than a Hard Drive.(there are 2 right answers)");
     System.out.println(" A. It's Stronger \n B. It's Faster \n C. It's Smaller \n D. It runs colder");
     char choice3 = input.next().charAt(0);
 
