@@ -15,7 +15,7 @@ class Main {
     char choice1 = input.next().charAt(0);
     int correct = 0;
 
-    if (choice1 == 'D') {
+    if (choice1 == 'D') { // answer is D
       System.out.println("Correct");
       ansOne = "Correct";
       correct = correct + 1;
@@ -34,7 +34,7 @@ class Main {
         .println(" A. Solid State Drive \n B. Solid State Device \n C. Smart Soft Drive \n D. Sovit Superior Device");
     char choice2 = input.next().charAt(0);
 
-    if (choice2 == 'A') {
+    if (choice2 == 'A') { // answer is A
       System.out.println("Correct");
       ansTwo = "Correct";
       correct = correct + 1;
@@ -52,7 +52,7 @@ class Main {
     System.out.println(" A. It's Stronger \n B. It's Faster \n C. It's Smaller \n D. It runs colder");
     char choice3 = input.next().charAt(0);
 
-    if (choice3 == 'B') {
+    if (choice3 == 'B') { // answer is B and C
       System.out.println("Correct");
       ansThree = "Correct";
       correct = correct + 1;
@@ -76,7 +76,7 @@ class Main {
     System.out.println(" A. char \n B. int \n C. float \n D. String");
     char choice4 = input.next().charAt(0);
 
-    if (choice4 == 'C') {
+    if (choice4 == 'C') { // answer is C
       System.out.println("Correct");
       ansFour = "Correct";
       correct = correct + 1;
@@ -94,7 +94,7 @@ class Main {
     System.out.println(" A. Recycling \n B. Driving \n C. Throwing out \n D. Hoarding");
     char choice5 = input.next().charAt(0);
 
-    if (choice5 == 'A') {
+    if (choice5 == 'A') { // answer is A
       System.out.println("Correct");
       ansFive = "Correct";
       correct = correct + 1;
@@ -112,7 +112,7 @@ class Main {
     System.out.println(" A. A rise in the planets average tempature \n B. Bad weather \n C. Snow \n D. Heatwaves");
     char choice6 = input.next().charAt(0);
 
-    if (choice6 == 'A') {
+    if (choice6 == 'A') { // answer is A
       System.out.println("Correct");
       ansSix = "Correct";
       correct = correct + 1;
@@ -130,7 +130,7 @@ class Main {
     System.out.println(" A. Hello \n B. Bye \n C. Hi \n D. Bonjour");
     char choice7 = input.next().charAt(0);
 
-    if (choice7 == 'C') {
+    if (choice7 == 'C') { // answer is C
       System.out.println("Correct");
       ansSeven = "Correct";
       correct = correct + 1;
@@ -148,7 +148,7 @@ class Main {
     System.out.println(" A. Equal to \n B. More than \n C. Less than \n D. Divided by");
     char choice8 = input.next().charAt(0);
 
-    if (choice8 == 'A') {
+    if (choice8 == 'A') { // answer is A
       System.out.println("Correct");
       ansEight = "Correct";
       correct = correct + 1;
@@ -166,7 +166,7 @@ class Main {
     System.out.println(" A. A number \n B. A decimal \n C. A Character \n D. A Sentance");
     char choice9 = input.next().charAt(0);
 
-    if (choice9 == 'C') {
+    if (choice9 == 'C') { // answer is C
       System.out.println("Correct");
       ansNine = "Correct";
       correct = correct + 1;
@@ -184,7 +184,7 @@ class Main {
     System.out.println(" A. 1000 \n B. 1500 \n C. 850 \n D. 1024");
     char choice10 = input.next().charAt(0);
 
-    if (choice10 == 'A') {
+    if (choice10 == 'A') { // answer is A and D
       System.out.println("Correct");
       ansTen = "Correct";
       correct = correct + 1;
